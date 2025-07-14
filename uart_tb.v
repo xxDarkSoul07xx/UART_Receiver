@@ -8,7 +8,7 @@ module uart_tb;
   wire [7:0] data_out;
   wire       data_valid;
 
-  uart_led uut (
+  uart uut (
     .clk(clk), 
     .rst(rst), 
     .rx(rx),
@@ -21,7 +21,7 @@ module uart_tb;
 
   initial begin
     $dumpfile("dump.vcd");
-    $dumpvars(0, uart_led_tb);
+    $dumpvars(0, uart_tb);
 
     #10 rst = 0;
 
