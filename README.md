@@ -17,3 +17,9 @@ Tools used: Icarus Verilog, EDA Playground, EPWave
 Possible future improvements include using this to make an LED light blink or a simple game.
 
 MIT License - feel free to use or modify this; just give credit
+
+
+
+July 26 Update:
+
+I have learned some SystemVerilog, so I decided to turn the code from Verilog to SystemVerilog. All functionalities work and are still the same - waveforms are still applicable.
